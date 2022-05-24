@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+header{
+    background-color: #0066cc;
+    padding-top: 15px;
+}
+
+header ul{
+    float: right;
+}
+header ul li{
+    float: left;
+    padding: 0 15px;
+  
+}
+header ul li a{
+    color: #e7e7e7;
+    transition: all linear 0.3s;
+}
+header ul li a:hover{
+    color: #333333;
+    transition: all linear 0.3s;
+}
+.header_text{
+    color:#e7e7e7;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    
+}
+/* body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+} */
+
+nav .nav-item a{
+    color: #333333;
+
+}
+.navbar .nav-link{
+    color: black;
+}
+
+nav .nav-item a:hover{
+    color:#0066cc;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+
+#banner{
+    background: url(../images/cover.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 400px; */
+    background-size:cover;
+}
+.banner_overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 88px 0;
+}
+.banner_content{
+    text-align: right;
+    color: white;
+}
+.banner_content h4{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+.banner_content h1{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.banner_content p{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.banner_content a{
+    padding: 10px 20px;
+    border: 1.5px solid white;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: all linear 0.3s;
+
+}
+.banner_content a:hover{
+    background-color: #0872b9;
+    border: none;
+    transition: all linear 0.4s;
+}
+
+
+/* Common Heading CSS start */
+
+
+.common_heading {
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: medium;
+    text-transform: uppercase;
+    padding-bottom: 37px;
+}
+.common_heading h4{
+    position: relative;
+}
+.common_heading h4::after{
+    content: " ";
+
+                    /* content:" " , should be used when applying after before */
+
+    background-color: #0066cc;
+    position: absolute;
+    width: 47px;
+    height: 2px;
+    bottom: -3px;
+    left: 45.8%;
+}
+.common_heading h4::before{
+    content: " ";
+
+                    /* content:" " , should be used when applying after before */
+
+    background-color: #0066cc;
+    position: absolute;
+    width: 7px;
+    height: 2px;
+    bottom: -3px;
+    left: 50.4%;
+}
+.common_heading h4 span::after{
+    content: " ";
+
+                    /* content:" " , should be used when applying after before */
+
+    background-color: #0066cc;
+    position: absolute;
+    width:7px;
+    height: 2px;
+    bottom: -3px;
+    left:51.3%;
+}
+.common_heading h4 span::before{
+    content: " ";
+
+                    /* content:" " , should be used when applying after before */
+
+    background-color: #0066cc;
+    position: absolute;
+    width: 3px;
+    height: 2px;
+    bottom: -3px;
+    left: 52.1%;
+}
+
+
+/* Common Heading CSS end */
+
+
+
+
+
+/* Common Heading CSS start */
+
+
+.common_heading_2 {
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: medium;
+    text-transform: uppercase;
+    padding-bottom: 37px;
+}
+.common_heading_2 h4{
+    position: relative;
+}
+.common_heading_2 h4::after{
+    content: " ";
+
+                    /* content:" " , should be used when applying after before */
+
+    background-color: #0066cc;
+    position: absolute;
+    width: 47px;
+    height: 2px;
+    bottom: -3px;
+    left: 44%;
+}
+.common_heading_2 h4::before{
+    content: " ";
+
+                    /* content:" " , should be used when applying after before */
+
+    background-color: #0066cc;
+    position: absolute;
+    width: 7px;
+    height: 2px;
+    bottom: -3px;
+    left: 48.5%;
+}
+.common_heading_2 h4 span::after{
+    content: " ";
+
+                    /* content:" " , should be used when applying after before */
+
+    background-color: #0066cc;
+    position: absolute;
+    width:7px;
+    height: 2px;
+    bottom: -3px;
+    left:49.5%;
+}
+.common_heading_2 h4 span::before{
+    content: " ";
+
+                    /* content:" " , should be used when applying after before */
+
+    background-color: #0066cc;
+    position: absolute;
+    width: 3px;
+    height: 2px;
+    bottom: -3px;
+    left: 50.5%;
+}
+
+
+/* Common Heading CSS end */
+
+
+
+
+
+
+/* Common Heading CSS start */
+
+
+.common_heading_3  {
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: medium;
+    text-transform: uppercase;
+    padding-bottom: 37px;
+}
+.common_heading_3  h4{
+    position: relative;
+}
+.common_heading_3 h4::after{
+    content: " ";
+
+                    /* content:" " , should be used when applying after before */
+
+    background-color: #0066cc;
+    position: absolute;
+    width: 47px;
+    height: 2px;
+    bottom: -3px;
+    left: 43.5%;
+}
+.common_heading_3  h4::before{
+    content: " ";
+
+                    /* content:" " , should be used when applying after before */
+
+    background-color: #0066cc;
+    position: absolute;
+    width: 7px;
+    height: 2px;
+    bottom: -3px;
+    left: 48%;
+}
+.common_heading_3  h4 span::after{
+    content: " ";
+
+                    /* content:" " , should be used when applying after before */
+
+    background-color: #0066cc;
+    position: absolute;
+    width:7px;
+    height: 2px;
+    bottom: -3px;
+    left:49%;
+}
+.common_heading_3  h4 span::before{
+    content: " ";
+
+                    /* content:" " , should be used when applying after before */
+
+    background-color: #0066cc;
+    position: absolute;
+    width: 3px;
+    height: 2px;
+    bottom: -3px;
+    left: 50%;
+}
+
+
+/* Common Heading CSS end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about_content p:first-child{
+    margin-top: 85px;
+    
+}
+.about_content p{
+    padding-bottom: 35px;
+    line-height: 27px;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+
+}
+.about_img{
+    margin-top: 41px;
+}
+
+
+
+
+
+
+
+.service_icon_main{
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 38%;
+    bottom: 75%;
+    border: 0.1px solid gainsboro;
+    /* margin: 3px; */
+    position: absolute;
+    padding: 5px;
+    transition: all linear 0.5s;
+   
+   
+}
+.service_icon{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    /* border: px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    /* padding: 2px; */
+    /* border: 1px solid #333333; */
+    padding: 5px;
+    transition: all linear 0.5s;
+
+   
+}
+
+.service_content{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 50px 23px 20px 23px;
+    /* margin-top: 5px; */
+    /* position: relative; */
+    border-radius: 5px;
+    transition: all linear 0.5s;
+    
+}
+.service_content h4{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.service_content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.service_main{
+    position: relative;
+    transition: all linear 0.5s;
+    
+}
+
+.service_main:hover .service_content{
+    box-shadow: 1px 1px 20px black;
+}
+.service_main:hover .service_icon_main{
+    border-color: #5bc5f4;
+    transition: all linear 0.5s;
+}
+.service_main:hover .service_icon{
+    background-color: #5bc5f4;
+    transition: all linear 0.5s;
+}
+
+.images{
+    position: relative;
+    transition: all linear .3s;
+    margin: 20px 0;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: all linear .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+   
+}
+.images:hover .overlay{
+    transform: scale(1);
+    transition: all linear .3s;
+}
+
+
